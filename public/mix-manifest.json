@@ -1,4 +1,5 @@
 {
-    "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css"
+    "/site/css/bootstrap.css": "/site/css/bootstrap.css?id=c9e294d1fa07a2a351b87730f50443eb",
+    "/site/js/jquery.js": "/site/js/jquery.js?id=bce53304d5d3438acfa5fcfae816769f",
+    "/site/js/bootstrap.bundle.js": "/site/js/bootstrap.bundle.js?id=57a985a5376d69aeb76bda8cdedc9ad1"
 }
