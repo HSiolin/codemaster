@@ -50,8 +50,7 @@
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
                         <a href="#" class="logo">
-                            <img src="{{ asset('teste/images/Captura de tela 2023-07-19 001011(1).png') }}"
-                                alt="">
+                            <img src="{{ asset('images/logo_jogo.png') }}" alt="">
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Search End ***** -->
@@ -68,7 +67,7 @@
                             <li><a href="index.html" class="active">Home</a></li>
                             <li><a href="browse.html">Browse</a></li>
                             <li><a href="details.html">Details</a></li>
-                            
+
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -86,23 +85,7 @@
             <div class="col-lg-12">
                 <div class="page-content">
 
-                    <!-- ***** Banner Start ***** -->
-                    <div class="main-banner">
-                        <div class="row">
-                            <div class="col-lg-7">
-                                <div class="header-text">
-                                    <h6>Bem vindo ao CodeMaster</h6>
-                                    <h4><em>Jogo</em> Desenvolvido para aprender programação</h4>
-                                    <div class="main-button">
-                                        <a href="{{ route('login') }}">Login</a>
 
-                                        <a href="{{ route('register') }}">Registrar</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ***** Banner End ***** -->
 
 
                 </div>
