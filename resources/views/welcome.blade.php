@@ -13,17 +13,17 @@
     <script src="{{ asset('site/js/bootstrap.js') }}" defer></script>
 
 
-    <script src="{{ asset('teste/js/custom.js') }}" defer></script>
-    <script src="{{ asset('teste/js/isotope.min.js') }}" defer></script>
-    <script src="{{ asset('teste/js/owl-carousel.js') }}" defer></script>
-    <script src="{{ asset('teste/js/popup.js') }}" defer></script>
-    <script src="{{ asset('teste/js/tabs.js') }}" defer></script>
+    <script src="{{ asset('template/js/custom.js') }}" defer></script>
+    <script src="{{ asset('template/js/isotope.min.js') }}" defer></script>
+    <script src="{{ asset('template/js/owl-carousel.js') }}" defer></script>
+    <script src="{{ asset('template/js/popup.js') }}" defer></script>
+    <script src="{{ asset('template/js/tabs.js') }}" defer></script>
     <!-- Styles -->
     <link href="{{ asset('site/css/bootstrap.css') }}" rel="stylesheet">
-    <link href="{{ asset('teste/css/templatemo-cyborg-gaming.css') }}" rel="stylesheet">
+    <link href="{{ asset('template/css/templatemo-cyborg-gaming.css') }}" rel="stylesheet">
 
-    <script src="{{ asset('teste/vendor/jquery/jquery.min.js') }}" defer></script>
-    <script src="{{ asset('teste/vendor/bootstrap/js/bootstrap.min.js') }}" defer></script>
+    <script src="{{ asset('template/vendor/jquery/jquery.min.js') }}" defer></script>
+    <script src="{{ asset('template/vendor/bootstrap/js/bootstrap.min.js') }}" defer></script>
 
 </head>
 
@@ -48,27 +48,24 @@
             <div class="row">
                 <div class="col-12">
                     <nav class="main-nav">
+
                         <!-- ***** Logo Start ***** -->
-                        <a href="#" class="logo">
-                            <img src="{{ asset('teste/images/Captura de tela 2023-07-19 001011(1).png') }}"
-                                alt="">
-                        </a>
+                        <li><a href="#" class="logo">
+                                <img src="{{ asset('template/images/logo_oficial.png') }}" alt="">
+                            </a></li>
                         <!-- ***** Logo End ***** -->
-                        <!-- ***** Search End ***** -->
-                        <div class="search-input">
-                            <form id="search" action="#">
-                                <input type="text" placeholder="Type Something" id='searchText' name="searchKeyword"
-                                    onkeypress="handle" />
-                                <i class="fa fa-search"></i>
-                            </form>
-                        </div>
-                        <!-- ***** Search End ***** -->
+
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li><a href="index.html" class="active">Home</a></li>
-                            <li><a href="browse.html">Browse</a></li>
-                            <li><a href="details.html">Details</a></li>
-                            
+
+                            <li><a href="#" class="active">Home</a></li>
+                            <li><a href="#">Notícias</a></li>
+                            <li><a href="#">Detalhes</a></li>
+                            <li>
+                                <div class="main-button">
+                                    <a href="{{ route('register') }}">Cadastrar</a>
+                                </div>
+                            </li>
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -94,9 +91,7 @@
                                     <h6>Bem vindo ao CodeMaster</h6>
                                     <h4><em>Jogo</em> Desenvolvido para aprender programação</h4>
                                     <div class="main-button">
-                                        <a href="{{ route('login') }}">Login</a>
-
-                                        <a href="{{ route('register') }}">Registrar</a>
+                                        <a href="{{ route('login') }}">Jogue Agora</a>
                                     </div>
                                 </div>
                             </div>

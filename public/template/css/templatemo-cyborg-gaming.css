@@ -367,7 +367,7 @@ Header Style
   min-height: 80px;
   background: transparent;
   display: flex;
-  padding: 15px 0px;
+  padding: 18px 0px;
   border-radius: 50px;
 }
 
@@ -402,7 +402,7 @@ Header Style
 
 .header-area .main-nav .logo {
   flex-basis: 70%;
-  margin-right: 4%;
+  margin-right: 60%;
   -webkit-transition: all 1s ease 0s;
   -moz-transition: all 1s ease 0s;
   -o-transition: all 1s ease 0s;
@@ -414,7 +414,7 @@ Header Style
 }
 
 .background-header .main-nav .logo {
-  margin-top: 80px;
+  margin-top: 10px;
 }
 
 .background-header .main-nav .logo img {
@@ -423,12 +423,12 @@ Header Style
 
 .header-area .main-nav .nav {
   display: inline-flex;
-  flex-basis: 70%;
+  flex-basis: 80%;
   justify-content: flex-end;
   vertical-align: middle;
   text-align: right;
   margin-top: 0px;
-  margin-right: 0px;
+  margin-right: 10px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
