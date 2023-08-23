@@ -9,8 +9,8 @@
 
 
     <!-- Scripts -->
-    <script src="{{ asset('site/js/jquery.js') }}" defer></script>
-    <script src="{{ asset('site/js/bootstrap.js') }}" defer></script>
+    <script src="{{ asset('js/jquery.js') }}" defer></script>
+    <script src="{{ asset('js/bootstrap.js') }}" defer></script>
 
 
     <script src="{{ asset('template/js/custom.js') }}" defer></script>
@@ -19,7 +19,7 @@
     <script src="{{ asset('template/js/popup.js') }}" defer></script>
     <script src="{{ asset('template/js/tabs.js') }}" defer></script>
     <!-- Styles -->
-    <link href="{{ asset('site/css/bootstrap.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
     <link href="{{ asset('template/css/templatemo-cyborg-gaming.css') }}" rel="stylesheet">
 
     <script src="{{ asset('template/vendor/jquery/jquery.min.js') }}" defer></script>
