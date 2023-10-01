@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
 
@@ -9,20 +9,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
 
-    <title>welcome - Tale SEO Agency CSS Template by TemplateMo website</title>
+    <title>Welcome - Tale SEO Agency CSS Template by TemplateMo website</title>
 
 
     <!-- Bootstrap core CSS -->
-    <link href="{{ asset('template_2/vendor/bootstrap/css') }}" rel="stylesheet">
+    <link href="{{ asset('template/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 
-    <link href="{{ asset('template_2/assets/css/fontawesome.css') }}" rel="stylesheet">
-    <link href="{{ asset('template_2/assets/css/templatemo-tale-seo-agency.css') }}" rel="stylesheet">
-    <link href="{{ asset('template_2/assets/css/owl.css') }}" rel="stylesheet">
-    <link href="{{ asset('template_2/assets/css/animate.css') }}" rel="stylesheet">
-    <link href="{{ asset('https://unpkg.com/swiper@7/swiper-bundle.min.css') }}"rel="stylesheet">
-
-    <!-- Bootstrap core CSS -->
-    <link href="template_2/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ asset('template/assets/css/fontawesome.css') }}" rel="stylesheet">
+    <link href="{{ asset('template/assets/css/templatemo-tale-seo-agency.css') }}" rel="stylesheet">
+    <link href="{{ asset('template/assets/css/owl.css') }}" rel="stylesheet">
+    <link href="{{ asset('template/assets/css/animate.css') }}" rel="stylesheet">
+    <link href="{{ asset('template/assets/css/styles.css') }}" rel="stylesheet">   
 
     <!--
 
@@ -64,6 +61,7 @@ https://templatemo.com/tm-582-tale-seo-agency
                 <div class="col-lg-4 col-sm-3">
                     <div class="social-icons">
                         <ul>
+                            <li><a href="/laravel/tcc/jogo/public/admin"><i class="fa-solid fa-user"></i></a></li>
                             <li><a href="#"><i class="fab fa-facebook"></i></a></li>
                             <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                             <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
@@ -84,7 +82,8 @@ https://templatemo.com/tm-582-tale-seo-agency
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
                         <a href="#" class="logo">
-                            <img src="{{ asset('template_2/assets/images/logo.png') }}" alt="" style="max-width: 112px;">
+                            <img src="{{ asset('template/assets/images/logo.png') }}" alt=""
+                                style="width: 350px;">
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
@@ -93,7 +92,15 @@ https://templatemo.com/tm-582-tale-seo-agency
                             <li class="scroll-to-section"><a href="#services">Notícias</a></li>
                             <li class="scroll-to-section"><a href="#projects">--Detalhes--</a></li>
                             <li class="scroll-to-section"><a href="#contact">Contato</a></li>
-                            <li class="scroll-to-section"><a href="{{ route('register') }}">Cadastro</a></li>
+                            <li class="scroll-to-section"><a href="/laravel/tcc/jogo/public/admin">ADmin</a></li>
+
+                            <li><input type="checkbox" class="checkbox" id="chk">
+                            <label class="labelchk" for="chk">
+                            <i class="fa-regular fa-sun"></i>
+                            <i class="fa-regular fa-moon"></i>
+                            <div class="ball"><div>
+                            </label><li>
+
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -111,16 +118,11 @@ https://templatemo.com/tm-582-tale-seo-agency
             <div class="row">
                 <div class="col-lg-7">
                     <div class="caption header-text">
-                        <h6>SEO DIGITAL AGENCY</h6>
-                        <div class="line-dec"></div>
-                        <h4>Dive <em>Into The SEO</em> World <span>With Tale</span></h4>
-                        <p>Tale is the best SEO agency website template using Bootstrap v5.2.2 CSS for your company. It
-                            is a free
-                            download provided by TemplateMo. There are 3 HTML pages, <a href="index.html">Home</a>, <a
-                                href="about.html">About</a>, and <a href="faqs.html">FAQ</a>.</p>
-                        <div class="main-button scroll-to-section"><a href="#services">Discover More</a></div>
-                        <span>or</span>
-                        <div class="second-button"><a href="faqs.html">Check our FAQs</a></div>
+
+                        <h4> <em>Code</em>Master</h4>
+                        <p>Explore, aprenda, programe - tudo isso enquanto se diverte como nosso jogo.</p>
+                        <div class="main-button scroll-to-section"><a href="{{ route('login') }}">Jogar Agora</a></div>
+                        <div class="main-button scroll-to-section"><a href="{{ route('register') }}">Cadastre-se</a></div>
                     </div>
                 </div>
             </div>
@@ -393,10 +395,7 @@ https://templatemo.com/tm-582-tale-seo-agency
     <footer>
         <div class="container">
             <div class="col-lg-12">
-                <p>Copyright © 2036 <a href="#">Tale SEO Agency</a>. All rights reserved.
-
-                    <br>Design: <a href="https://templatemo.com" target="_blank">TemplateMo</a> Distribution: <a
-                        href="https://themewagon.com">ThemeWagon</a>
+                <p>Copyright © 2023 <a href="#">CodeMaster</a>. All rights reserved.
                 </p>
             </div>
         </div>
@@ -404,14 +403,15 @@ https://templatemo.com/tm-582-tale-seo-agency
 
 
     <!-- Bootstrap core JavaScript -->
-    <script src="{{ asset('template_2/vendor/jquery/jquery.min.js') }}" defer></script>
-    <script src="{{ asset('template_2/vendor/bootstrap/js/bootstrap.min.js') }}" defer></script>
+    <script src="{{ asset('template/vendor/jquery/jquery.min.js') }}" defer></script>
+    <script src="{{ asset('template/vendor/bootstrap/js/bootstrap.min.js') }}" defer></script>
 
     <!-- Scripts -->
-    <script src="{{ asset('template_2/assets/js/isotope.min.js') }}" defer></script>
-    <script src="{{ asset('template_2/assets/js/owl-carousel.js') }}" defer></script>
-    <script src="{{ asset('template_2/assets/js/popup.js') }}" defer></script>
-    <script src="{{ asset('template_2/assets/js/custom.js') }}" defer></script>
+    <script src="{{ asset('template/assets/js/button.js') }}" defer></script>
+    <script src="{{ asset('template/assets/js/isotope.min.js') }}" defer></script>
+    <script src="{{ asset('template/assets/js/owl-carousel.js') }}" defer></script>
+    <script src="{{ asset('template/assets/js/popup.js') }}" defer></script>
+    <script src="{{ asset('template/assets/js/custom.js') }}" defer></script>
 
 </body>
 
