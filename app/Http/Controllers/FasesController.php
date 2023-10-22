@@ -2,16 +2,12 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Css;
+use App\Models\Fases;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class CssController extends Controller
+class FasesController extends Controller
 {
-    public function subfases_css()
-    {
-        // Lógica para armazenar a subfase
-    }
     /**
      * Display a listing of the resource.
      *
@@ -19,7 +15,7 @@ class CssController extends Controller
      */
     public function index()
     {
-        //
+        return view('niveis.fases');
     }
 
     /**
@@ -29,7 +25,7 @@ class CssController extends Controller
      */
     public function create()
     {
-        //
+      
     }
 
     /**
@@ -46,10 +42,10 @@ class CssController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Css  $css
+     * @param  \App\Models\Fases  $fases
      * @return \Illuminate\Http\Response
      */
-    public function show(Css $css)
+    public function show(Fases $fases)
     {
         //
     }
@@ -57,10 +53,10 @@ class CssController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Css  $css
+     * @param  \App\Models\Fases  $fases
      * @return \Illuminate\Http\Response
      */
-    public function edit(Css $css)
+    public function edit(Fases $fases)
     {
         //
     }
@@ -69,10 +65,10 @@ class CssController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Css  $css
+     * @param  \App\Models\Fases  $fases
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Css $css)
+    public function update(Request $request, Fases $fases)
     {
         //
     }
@@ -80,11 +76,13 @@ class CssController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Css  $css
+     * @param  \App\Models\Fases  $fases
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Css $css)
+    public function destroy(Fases $fases)
     {
         //
     }
+
+
 }

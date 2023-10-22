@@ -15,6 +15,13 @@ return new class extends Migration
     {
         Schema::create('htmls', function (Blueprint $table) {
             $table->id();
+            $table->string('pergunta');
+            $table->string('resposta_correta');
+            $table->string('subfase');
+            $table->string('opcao1');
+            $table->string('opcao2');
+            $table->string('opcao3');
+            $table->string('opcao4');
             $table->timestamps();
         });
     }

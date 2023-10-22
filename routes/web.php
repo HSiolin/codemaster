@@ -1,9 +1,8 @@
 <?php
-use App\Http\Controllers\AdminController;
-use App\Http\Controllers\AdminAuth\LoginController;
-use App\Http\Controllers\AdminAuth\RegisterController;
+
 use App\Http\Controllers\CssController;
 use App\Http\Controllers\HtmlController;
+use App\Http\Controllers\FasesController;
 use App\Http\Controllers\LogicaController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -23,9 +22,9 @@ use App\Http\Controllers\HomeController;
 Route::get('/', function () {
     return view('welcome');
 });
-
 // Abas lógica
 Route::resource('/logica', LogicaController::class);
+Route::get('/subfases_logica/{nivel}', [LogicaController::class, 'subfases_logica'])->name('subfases_logica');
 
 // Abas HTML
 Route::resource('/html', HtmlController::class);
@@ -33,8 +32,11 @@ Route::resource('/html', HtmlController::class);
 // Abas CSS
 Route::resource('/css', CssController::class);
 
+// Abas fases
+Route::resource('/fases', FasesController::class);
+
+
 // Rotas de autenticação para usuários
 Auth::routes();
-
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');

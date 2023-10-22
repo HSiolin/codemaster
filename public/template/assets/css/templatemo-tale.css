@@ -141,7 +141,12 @@ hgroup {
 
 html,
 body {
-  font-family: 'Open Sans', sans-serif;
+  background-color: #f8f6f8;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  font-family: 'Open Sans', sans-serif; /* Adiciona a fonte Open Sans */
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -749,7 +754,7 @@ Header Style
     text-align: center;
   }
   .header-area .container {
-    padding: 0px;
+    padding: 100px;
   }
   .header-area .logo {
     margin-left: 0px;
@@ -1035,7 +1040,7 @@ Projects Style
 */
 
 .projects .section-heading {
-  margin-bottom: 80px;
+  margin-bottom: 10px;
 }
 
 .projects .container-fluid {
@@ -1121,8 +1126,8 @@ Infos Style
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  padding: 120px 0px;
-  margin-top: 120px;
+  padding: 160px;
+  margin-top: 10px;
 }
 
 .infos .main-content {
@@ -1222,7 +1227,7 @@ Contact Style
 }
 
 .contact-us::before {
-  content: url(../images/contact-left.png );
+  content: url(../images/contact-left.png);
   top: -60px;
   left: 0;
   position: absolute;
@@ -1887,6 +1892,40 @@ Most Asked Style
 
 /* 
 ---------------------------------------------
+Play Botão
+--------------------------------------------- 
+*/
+
+/* styles.css */
+
+/* styles.css */
+
+.container-play {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Ajustei para iniciar o alinhamento do conteúdo do topo */
+  text-align: center;
+  height: 100vh; /* Adicionei isso para ocupar a altura total da viewport */
+}
+
+.play img {
+  width: 700px;
+  margin-bottom: 10px; /* Reduzi a margem inferior da imagem */
+  margin-top: 100px; /* Ajustei a margem superior da imagem para subi-la mais próximo ao topo */
+}
+
+.button-play a {
+  width: 300px;
+  height: 300px;
+  margin-top: -50px; /* Ajustei a margem superior do botão para subi-lo mais próximo à imagem */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 
+---------------------------------------------
 Responsive Style
 --------------------------------------------- 
 */
@@ -2052,4 +2091,84 @@ body {
     padding: 60px;
     border-radius: 23px;
   }
+}
+
+/* Seu código CSS personalizado aqui */
+/* Importa a fonte Fantasy do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fantasy&display=swap');
+
+/* Estilo para os botões */
+.start-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px; /* Largura aumentada */
+  height: 80px; /* Altura aumentada */
+  background-color: #6c3483; /* Cor roxa */
+  color: #fff; /* Cor do texto branco */
+  font-size: 28px; /* Tamanho da fonte aumentado */
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px;
+  border: 1px solid #fff; /* Borda branca */
+  border-radius: 40px; /* Valor maior para tornar o botão mais arredondado */
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  font-family: 'Fantasy', Georgia, 'Times New Roman', Times, serif; /* Adiciona a fonte Fantasy */
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Efeito da borda roxa */
+.start-button::before {
+  content: '';
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  width: calc(100% + 12px);
+  height: calc(100% + 12px);
+  border: 2px solid #bd8ad3; /* Cor roxa mais clara */
+  border-radius: 46px; /* Valor maior para tornar a borda roxa mais arredondada */
+  z-index: -1;
+}
+
+/* Efeito de hover */
+.start-button:hover {
+  background-color: #bd8ad3; /* Cor mais clara no hover */
+  transform: scale(1.05);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+/* Começo quiz de hover */
+.quiz-container {
+  background-color: #864fba; /* Roxo médio */
+  border-radius: 10px;
+  padding: 100px;
+  width: 50%;
+  max-width: 600px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 0 auto; /* Adiciona margem automática para centralizar horizontalmente */
+}
+.quiz-container {
+  background-color: #8a2be2; /* Roxo médio */
+  border-radius: 10px;
+  padding: 100px;
+  width: 50%;
+  max-width: 600px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 0 auto; /* Adiciona margem automática para centralizar horizontalmente */
+}
+
+.option-button {
+  background-color: #9400D3; /* Roxo violeta */
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.option-button.selected {
+  background-color: #800080; /* Roxo */
 }

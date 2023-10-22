@@ -17,6 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('pergunta');
             $table->string('resposta_correta');
+            $table->string('subfase');
             $table->string('opcao1');
             $table->string('opcao2');
             $table->string('opcao3');

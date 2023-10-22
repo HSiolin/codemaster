@@ -13,15 +13,8 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('csses', function (Blueprint $table) {
+        Schema::create('fases', function (Blueprint $table) {
             $table->id();
-            $table->string('pergunta');
-            $table->string('resposta_correta');
-            $table->string('subfase');
-            $table->string('opcao1');
-            $table->string('opcao2');
-            $table->string('opcao3');
-            $table->string('opcao4');
             $table->timestamps();
         });
     }
@@ -33,6 +26,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('csses');
+        Schema::dropIfExists('fases');
     }
 };

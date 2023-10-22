@@ -8,6 +8,11 @@ use Illuminate\Http\Request;
 
 class HtmlController extends Controller
 {
+
+    public function subfases_html()
+    {
+       
+    }
     /**
      * Display a listing of the resource.
      *
