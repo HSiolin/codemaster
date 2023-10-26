@@ -11,35 +11,38 @@
                         @csrf
                         <table>
                             <tbody>
+                             @foreach($pergunta as $value)
                                 <tr>
                                     <td>
-                                        <h3 id="question">{{ $pergunta->pergunta }}</h3>
+                                        <h3 id="question">{{ $value->pergunta }}</h3>
                                         <hr>
                                         <div class="options">
-                                            <div class="option-button" onclick="selectOption(this)" data-value="{{ $pergunta->opcao1 }}">
-                                                {{ $pergunta->opcao1 }}
+                                            <div class="option-button" onclick="selectOption(this)" data-value="{{ $value->opcao1 }}">
+                                                {{ $value->opcao1 }}
                                             </div>
                                             <br>
-                                            <div class="option-button" onclick="selectOption(this)" data-value="{{ $pergunta->opcao2 }}">
-                                                {{ $pergunta->opcao2 }}
+                                            <div class="option-button" onclick="selectOption(this)" data-value="{{ $value->opcao2 }}">
+                                                {{ $value->opcao2 }}
                                             </div>
                                             <br>
-                                            <div class="option-button" onclick="selectOption(this)" data-value="{{ $pergunta->opcao3 }}">
-                                                {{ $pergunta->opcao3 }}
+                                            <div class="option-button" onclick="selectOption(this)" data-value="{{ $value->opcao3 }}">
+                                                {{ $value->opcao3 }}
                                             </div>
                                             <br>
-                                            <div class="option-button" onclick="selectOption(this)" data-value="{{ $pergunta->opcao4 }}">
-                                                {{ $pergunta->opcao4 }}
+                                            <div class="option-button" onclick="selectOption(this)" data-value="{{ $value->opcao4 }}">
+                                                {{ $value->opcao4 }}
                                             </div>
                                         </div>
                                         <hr>
                                          <input type="hidden" name="selected_option" id="selected_option" value="">
-                                         <input type="hidden" name="resposta_correta" id="resposta_correta" value="{{ $pergunta->resposta_correta }}">
+                                         <input type="hidden" name="resposta_correta" id="resposta_correta" value="{{ $value->resposta_correta }}">
                                     </td>
                                 </tr>
+                             @endforeach
                             </tbody>
                         </table>
-                        <button type="submit" class="orange-button">Próxima pergunta</button>
+                     
+                        <button type="submit" class="btn-grey">Próxima pergunta</button>
                     </form>
                 </div>
             </div>

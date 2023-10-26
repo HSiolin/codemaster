@@ -242,3 +242,12 @@ body.dark pre-header {
 botão Style
 --------------------------------------------- 
 */
+
+.btn-grey {
+  background-color: rgb(192, 192, 192);
+  color: white;  /* Adicione esta linha se quiser que o texto seja branco */
+  /* Adicione mais estilos conforme necessário */
+  margin: 15px 0;
+  border-radius: 10px;
+  padding: 10px;
+}

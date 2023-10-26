@@ -1122,12 +1122,12 @@ Infos Style
 */
 
 .infos {
-  background-image: url(../images/infos-bg.jpg);
+  background-image: url(../images/header_img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   padding: 160px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .infos .main-content {
@@ -1899,31 +1899,30 @@ Play Botão
 /* styles.css */
 
 /* styles.css */
-
 .container-play {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start; /* Ajustei para iniciar o alinhamento do conteúdo do topo */
+  justify-content: flex-start; /* Inicia o alinhamento do conteúdo do topo */
   text-align: center;
-  height: 100vh; /* Adicionei isso para ocupar a altura total da viewport */
+  height: 140vh; /* Ocupa a altura total da viewport */
 }
 
 .play img {
-  width: 700px;
-  margin-bottom: 10px; /* Reduzi a margem inferior da imagem */
-  margin-top: 100px; /* Ajustei a margem superior da imagem para subi-la mais próximo ao topo */
+  width: 500px;
+  margin-bottom: 20px; /* Reduzi a margem inferior da imagem */
+  margin-top: 20px; /* Ajustei a margem superior da imagem para subi-la mais próximo ao topo */
 }
 
 .button-play a {
-  width: 300px;
-  height: 300px;
-  margin-top: -50px; /* Ajustei a margem superior do botão para subi-lo mais próximo à imagem */
+  width: 100px;
+  height: 100px;
+  margin-top: 10px; /* Ajustei a margem superior do botão para subi-lo mais próximo à imagem */
+  
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 /* 
 ---------------------------------------------
 Responsive Style
@@ -2141,19 +2140,19 @@ body {
 }
 /* Começo quiz de hover */
 .quiz-container {
-  background-color: #864fba; /* Roxo médio */
+  background-color: #a85bef; /* Roxo médio */
   border-radius: 10px;
   padding: 100px;
-  width: 50%;
+  width: 100%;
   max-width: 600px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   margin: 0 auto; /* Adiciona margem automática para centralizar horizontalmente */
 }
 .quiz-container {
-  background-color: #8a2be2; /* Roxo médio */
+  background-color: #a85bef; /* Roxo médio */
   border-radius: 10px;
   padding: 100px;
-  width: 50%;
+  width: 100%;
   max-width: 600px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   margin: 0 auto; /* Adiciona margem automática para centralizar horizontalmente */
@@ -2170,5 +2169,5 @@ body {
 }
 
 .option-button.selected {
-  background-color: #800080; /* Roxo */
+  background-color: #8b018b; /* Roxo */
 }

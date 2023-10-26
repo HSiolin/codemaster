@@ -15,7 +15,7 @@
 
     <link href="{{ asset('template/assets/css/fontawesome.css') }}" rel="stylesheet">
     <link href="{{ asset('template/assets/css/styles.css') }}" rel="stylesheet">
-    <link href="{{ asset('template/assets/css/templatemo-tale.css') }}" rel="stylesheet">
+    <link href="{{ asset('template/assets/css/style-jogo.css') }}" rel="stylesheet">
     <link href="{{ asset('template/assets/css/owl.css') }}" rel="stylesheet">
     <link href="{{ asset('template/assets/css/animate.css') }}" rel="stylesheet">
 
