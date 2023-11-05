@@ -23,9 +23,19 @@ use App\Http\Controllers\HomeController;
 Route::get('/', function () {
     return view('welcome');
 })->name('welcome');
-// Abas lógica
+
+// Abas fases
+Route::get('/fases', function () {
+    return view('niveis.fases');
+})->name('fases');
+
+// Abas lógicas
+Route::get('/subfases_logica', function () {
+    return view('logica.subfases');
+})->name('subfases_logica');
+
+
 Route::resource('/logica', LogicaController::class);
-Route::get('/subfases_logica/{nivel}', [LogicaController::class, 'subfases_logica'])->name('subfases_logica');
 
 // Abas HTML
 Route::resource('/html', HtmlController::class);
@@ -33,17 +43,11 @@ Route::resource('/html', HtmlController::class);
 // Abas CSS
 Route::resource('/css', CssController::class);
 
-// Abas fases
-Route::resource('/fases', FasesController::class);
-
-
 // Rotas de autenticação para usuários
 Auth::routes();
 
+// Rotas das páginas do site
 Route::get('/home', [HomeController::class, 'index'])->name('home');
-
-// Rotas das páginas do site 
-
 Route::get('/faqs', [SiteController::class, 'faqs'])->name('faqs');
 Route::get('/ias', [SiteController::class, 'ias'])->name('ias');
 Route::get('/jogos', [SiteController::class, 'jogos'])->name('jogos');

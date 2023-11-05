@@ -426,7 +426,7 @@ Header Style
 }
 
 .header-area .main-nav .logo {
-  margin-top: 25px;
+  margin-top: 32px;
   flex-basis: 20%;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -435,7 +435,7 @@ Header Style
 }
 
 .background-header .main-nav .logo {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .header-area .main-nav .nav {
@@ -1894,31 +1894,29 @@ Most Asked Style
 ---------------------------------------------
 Play Botão
 --------------------------------------------- 
-*/
-
-/* styles.css */
-
 /* styles.css */
 .container-play {
+  background-image: url(../images/Mask.png);
+ 
+  margin-top: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start; /* Inicia o alinhamento do conteúdo do topo */
+  justify-content: center; /* Centraliza o conteúdo verticalmente e horizontalmente */
   text-align: center;
-  height: 140vh; /* Ocupa a altura total da viewport */
+  height: 100vh; /* Use 100vh para ocupar a altura total da viewport */
 }
 
 .play img {
-  width: 500px;
-  margin-bottom: 20px; /* Reduzi a margem inferior da imagem */
-  margin-top: 20px; /* Ajustei a margem superior da imagem para subi-la mais próximo ao topo */
+  width: 500px; /* Ajuste o tamanho da imagem conforme necessário */
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .button-play a {
-  width: 100px;
-  height: 100px;
-  margin-top: 10px; /* Ajustei a margem superior do botão para subi-lo mais próximo à imagem */
-  
+  width: 70px;
+  height: 70px;
+  margin-top: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1928,6 +1926,22 @@ Play Botão
 Responsive Style
 --------------------------------------------- 
 */
+
+.container-quizz {
+  background-image: url(../images/Mask.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 160px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center center;
+}
+
+
 
 body {
   overflow-x: hidden;

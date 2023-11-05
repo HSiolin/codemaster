@@ -1,18 +1,21 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-2 text-center">
-                <a type="button" href="{{ route('subfases_logica', ['nivel' => 'dificil']) }}"
-                    class="start-button mb-3">Lógica</a>
+    <div class="infos section" id="infos">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-2 text-center">
+                    <a type="button" href="{{ route('subfases_logica') }}" class="start-button mb-3">Lógica</a>
 
-                <a type="button" href="#" class="start-button mb-3" onclick="startGame('html')">HTML</a>
-                <a type="button" href="#" class="start-button mb-3" onclick="startGame('css')">CSS</a>
+                    <a type="button" href="#" class="start-button mb-3" onclick="startGame('html')">HTML</a>
+                    <a type="button" href="#" class="start-button mb-3" onclick="startGame('css')">CSS</a>
+                </div>
             </div>
         </div>
     </div>
 @endsection
+
+
 
 
 @if (session('erro'))

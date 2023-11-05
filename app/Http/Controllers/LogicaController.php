@@ -8,8 +8,6 @@ use Illuminate\Http\Request;
 
 class LogicaController extends Controller
 {
-
-     
     /**
      * Display a listing of the resource.
      *
@@ -17,7 +15,6 @@ class LogicaController extends Controller
      */
     public function index()
     {
-        return view('subfases_logica');
     }
 
     /**
@@ -27,9 +24,10 @@ class LogicaController extends Controller
      */
     public function create()
     {
-         // Recupera uma pergunta aleatória
-       $pergunta = Logica::All();
-        return view('logica/create', compact('pergunta'));
+        $nivel = request()->input('nivel');
+
+        $pergunta = Logica::where('subfase', $nivel)->get();
+        return view('logica.create', compact('pergunta'));
     }
 
     /**
@@ -40,21 +38,6 @@ class LogicaController extends Controller
      */
     public function store(Request $request)
     {
-        {
-            $respostaSelecionada = $request->input('selected_option');
-            $respostaCorreta = $request->input('resposta_correta');
-        
-            if ($respostaSelecionada == $respostaCorreta) {
-                // A resposta está correta, redirecionar para a próxima pergunta
-                // Você pode implementar a lógica para obter a próxima pergunta e redirecionar
-                // Vou usar uma rota fictícia 'proxima-pergunta' como exemplo
-                return redirect()->route('logica.create');
-            } else {
-                // A resposta está incorreta, exibir uma mensagem de erro e redirecionar para a página de fases
-                // Adicionando uma mensagem de erro à sessão
-                return redirect()->route('fases.index')->with('erro', 'Resposta incorreta! Tente novamente.');
-            }
-        }
     }
 
     /**
@@ -101,34 +84,4 @@ class LogicaController extends Controller
     {
         //
     }
-
-      //------------Subfases-------------
-         
-      public function subfases_logica($nivel)
-      {
-          // Defina a condição de dificuldade com base no parâmetro $nivel
-          $condicaoDificuldade = '';
-      
-          switch ($nivel) {
-              case 'facil':
-                  $condicaoDificuldade = 'facil';
-                  break;
-              case 'medio':
-                  $condicaoDificuldade = 'medio';
-                  break;
-              case 'dificil':
-                  $condicaoDificuldade = 'dificil';
-                  break;
-              default:
-                  // Se nenhum nível válido for fornecido, redirecione ou trate de outra forma
-                  return redirect()->route('fases')->with('erro', 'Nível inválido.');
-          }
-      
-          // Recupere uma pergunta aleatória com base na condição de dificuldade
-          $pergunta = Logica::where('subfase', $condicaoDificuldade)->inRandomOrder()->first();
-      
-          // Redirecione para a página de logica.create, passando o ID da pergunta como parâmetro
-          return redirect()->route('logica.create', ['pergunta' => $pergunta->id]);
-      }
-      
 }

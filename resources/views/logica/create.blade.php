@@ -1,11 +1,12 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="quiz-container">
+    <div class="container-quizz">
+
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-12 text center">
                 <div class="row">
-                    <h5><span>Lógica de Programação</span></h5>
+                    <h5 class="text-center">Lógica de Programação</h5>
                     <div class="col-lg-12">
                         <form action="{{ route('logica.store') }}" method="POST">
                             @csrf
@@ -16,7 +17,7 @@
                                             <td>
                                                 <h3 id="question">{{ $value->pergunta }}</h3>
                                                 <hr>
-                                                <div class="options">
+                                                <div class="options ">
                                                     <div class="option-button" onclick="selectOption(this)"
                                                         data-value="{{ $value->opcao1 }}">
                                                         {{ $value->opcao1 }}
@@ -48,14 +49,14 @@
                                 </tbody>
                             </table>
 
-                            <button type="submit" class="btn-grey">Próxima pergunta</button>
+                            <button type="submit" class="btn-grey">Finalizar</button>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
+    </div>
     <script>
         function selectOption(button) {
             // Desmarcar todos os botões

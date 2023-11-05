@@ -102,7 +102,92 @@
             </div>
         </div>
     </div>
+   <!-- ***** Contact start ***** -->
 
+    <div class="contact-us section" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="contact-us-content d-flex align-items-center">
+                        <div class="row">
+
+                            <div class="col-lg-12 mx-auto">
+                                <form id="contact-form" action="" method="post">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="section-heading">
+                                                <h2><em>FALE</em> <span>CONOSCO</span></h2>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <fieldset>
+                                                <input type="name" name="name" id="name"
+                                                    placeholder="Nome..." autocomplete="on" required>
+                                            </fieldset>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <fieldset>
+                                                <input type="surname" name="surname" id="surname"
+                                                    placeholder="Sobrenome..." autocomplete="on" required>
+                                            </fieldset>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <fieldset>
+                                                <input type="text" name="email" id="email"
+                                                    pattern="[^ @]*@[^ @]*" placeholder="E-mail..." required="">
+                                            </fieldset>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <fieldset>
+                                                <input type="subject" name="subject" id="subject"
+                                                    placeholder="Assunto..." autocomplete="on">
+                                            </fieldset>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <fieldset>
+                                                <textarea name="message" id="message" placeholder="Mensagem"></textarea>
+                                            </fieldset>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <fieldset>
+                                                <button type="submit" id="form-submit" class="orange-button">Enviar
+                                                    mensagem</button>
+                                            </fieldset>
+                                        </div>
+                                    </div>
+                                </form>
+                                <div class="more-info">
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <div class="info-item">
+                                                <i class="fa fa-phone"></i>
+                                                <h4><a href="#">010-020-0340</a></h4>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="info-item">
+                                                <i class="fa fa-envelope"></i>
+                                                <h4><a href="#">vanessa.vane.nessa.vs@email.com</a></h4>
+                                                <h4><a href="#">hello@company.com</a></h4>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="info-item">
+                                                <i class="fa fa-map-marker"></i>
+                                                <h4><a href="#">704/904 Seps Eq 702/902, Brasília - DF,
+                                                        70390-045</a></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Contact end ***** -->
 
 
 @endsection

@@ -421,7 +421,7 @@ Header Style
 }
 
 .header-area .main-nav .logo {
-  margin-top: 25px;
+  margin-top: 32px;
   flex-basis: 20%;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -430,7 +430,7 @@ Header Style
 }
 
 .background-header .main-nav .logo {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .header-area .main-nav .nav {

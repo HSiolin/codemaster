@@ -258,142 +258,52 @@
     </div>
     <!-- ***** Rank semanal end ***** -->
     <!-- ***** Top 3 start ***** -->
-    <div class="infos section" id="infos">
-        <div class="container">
+  <div class="infos section" id="infos">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="main-content">
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="main-content">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="left-image">
-                                    <img src="assets/images/rank.jpg" alt="">
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="section-heading">
-                                    <h2>Rank <em>top 3</em> da <span>Semana</span></h2>
-                                    <div class="line-dec"></div>
-                                    <p>Parabéns aos jogadores extraordinários que conquistaram o Top 3 de pontuações!
-                                        Vocês são verdadeiros campeões e estão no auge da excelência.
-                                        Continue alcançando novos patamares e inspirando a todos nós com suas
-                                        habilidades incríveis!</p>
-                                </div>
-                                <div class="skills">
-                                    <div class="skill-slide marketing">
-                                        <div class="fill"></div>
-                                        <h6>Primeiro lugar</h6>
-                                        <span>pontuação</span>
-                                    </div>
-                                    <div class="skill-slide digital">
-                                        <div class="fill"></div>
-                                        <h6>Segundo lugar</h6>
-                                        <span>pontuação</span>
-                                    </div>
-                                    <div class="skill-slide media">
-                                        <div class="fill"></div>
-                                        <h6>Terceiro lugar</h6>
-                                        <span>pontuação</span>
-                                    </div>
-                                </div>
-                                <p class="more-info">Suas conquistas demonstram dedicação e habilidade excepcionais.
-                                    Que essa posição no Top 3 seja apenas o começo de uma jornada repleta de sucesso e
-                                    realizações no nosso jogo.
-                                    Continue desafiando seus limites pois você vai longe!
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+              <div class="col-lg-6">
+                <div class="left-image">
+                  <img src="assets/images/modelo5.jpg" alt="">
                 </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="section-heading">
+                  <h2> <em>Como Jogar </em>  <span>CODEMASTER? </span></h2>
+                  <div class="line-dec"></div>
+                  <p>Aqui estão as instruções para jogar nosso incrível jogo de quiz:</p>
+                </div>
+                <div class="skills">
+                  <div class="skill-slide marketing">
+                    <div class="fill"></div>
+                    <h6>1. Registre-se ou Faça Login</h6>
+                    <p>Comece criando uma conta ou fazendo login se você já tiver uma.</p>
+                  </div>
+                  <div class="skill-slide digital">
+                    <div class="fill"></div>
+                    <h6>Escolha um Quiz</h6>
+                    <p>Navegue pela nossa seleção de quizzes e escolha o que te interessa.</p>
+                  </div>
+                  <div class="skill-slide media">
+                    <div class="fill"></div>
+                    <h6>Responda às Perguntas</h6>
+                    <p>Escolha uma alternativa correta do quiz com cuidado e rapidez.</p>
+                  </div>
+                </div>
+                <p class="more-info">É isso! Você está pronto para começar sua jornada no mundo dos quizzes. 
+                  Desafie seus amigos, ganhe prêmios e divirta-se ao máximo.</p>
+                </p>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
     <!-- ***** top 3 end ***** -->
-    <!-- ***** Contact start ***** -->
-
-    <div class="contact-us section" id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="contact-us-content d-flex align-items-center">
-                        <div class="row">
-
-                            <div class="col-lg-12 mx-auto">
-                                <form id="contact-form" action="" method="post">
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <div class="section-heading">
-                                                <h2><em>Contact Us</em> &amp; Get In <span>Touch</span></h2>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <fieldset>
-                                                <input type="name" name="name" id="name"
-                                                    placeholder="Nome..." autocomplete="on" required>
-                                            </fieldset>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <fieldset>
-                                                <input type="surname" name="surname" id="surname"
-                                                    placeholder="Sobrenome..." autocomplete="on" required>
-                                            </fieldset>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <fieldset>
-                                                <input type="text" name="email" id="email"
-                                                    pattern="[^ @]*@[^ @]*" placeholder="E-mail..." required="">
-                                            </fieldset>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <fieldset>
-                                                <input type="subject" name="subject" id="subject"
-                                                    placeholder="Assunto..." autocomplete="on">
-                                            </fieldset>
-                                        </div>
-                                        <div class="col-lg-12">
-                                            <fieldset>
-                                                <textarea name="message" id="message" placeholder="Mensagem"></textarea>
-                                            </fieldset>
-                                        </div>
-                                        <div class="col-lg-12">
-                                            <fieldset>
-                                                <button type="submit" id="form-submit" class="orange-button">Enviar
-                                                    mensagem</button>
-                                            </fieldset>
-                                        </div>
-                                    </div>
-                                </form>
-                                <div class="more-info">
-                                    <div class="row">
-                                        <div class="col-lg-4">
-                                            <div class="info-item">
-                                                <i class="fa fa-phone"></i>
-                                                <h4><a href="#">010-020-0340</a></h4>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <div class="info-item">
-                                                <i class="fa fa-envelope"></i>
-                                                <h4><a href="#">vanessa.vane.nessa.vs@email.com</a></h4>
-                                                <h4><a href="#">hello@company.com</a></h4>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <div class="info-item">
-                                                <i class="fa fa-map-marker"></i>
-                                                <h4><a href="#">704/904 Seps Eq 702/902, Brasília - DF,
-                                                        70390-045</a></h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- ***** Contact end ***** -->
+ 
     <footer>
         <div class="container">
             <div class="col-lg-12">

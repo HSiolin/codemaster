@@ -19,6 +19,7 @@
     <link href="{{ asset('template/assets/css/style-jogo.css') }}" rel="stylesheet">
     <link href="{{ asset('template/assets/css/owl.css') }}" rel="stylesheet">
     <link href="{{ asset('template/assets/css/animate.css') }}" rel="stylesheet">
+    <link href="{{ asset('template/assets/css/botao-fundo.css') }}" rel="stylesheet">
 
     <!-- TemplateMo 582 Tale SEO Agency
     https://templatemo.com/tm-582-tale-seo-agency
@@ -47,7 +48,7 @@
                 <div class="col-lg-8 col-sm-9">
                     <div class="left-info">
                         <ul>
-                            <li><a href="#"><i class="fa fa-phone"></i>+000 1234 5678</a></li>
+                            
                             <li><a href="#"><i class="fa fa-envelope"></i>infocompany@email.com</a></li>
                             <li><a href="#"><i class="fa fa-map-marker"></i>St. London 54th Bull</a></li>
                             <li>
@@ -115,20 +116,10 @@
     </header>
     <!-- ***** Header Area End ***** -->
 
-
-
-    <div class="infos section" id="infos">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
                     <div>
                         @yield('content')
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
+               
 
     <!-- Bootstrap core JavaScript -->
     <script src="{{ asset('template/vendor/jquery/jquery.min.js') }}" defer></script>
