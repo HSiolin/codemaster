@@ -7,5 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Html extends Model
 {
-    use HasFactory;
+    protected $fillable = [
+        'pergunta', 'resposta_correta', 'subfase', 'opcao1', 'opcao2','opcao3','opcao4'
+    ];
 }

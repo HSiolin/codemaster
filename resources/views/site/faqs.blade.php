@@ -167,8 +167,7 @@
                                         <div class="col-lg-4">
                                             <div class="info-item">
                                                 <i class="fa fa-envelope"></i>
-                                                <h4><a href="#">vanessa.vane.nessa.vs@email.com</a></h4>
-                                                <h4><a href="#">hello@company.com</a></h4>
+                                                <h4><a href="mailto:codemaster.quiz@gmail.com">codemaster.quiz@gmail.com</a></h4>
                                             </div>
                                         </div>
                                         <div class="col-lg-4">

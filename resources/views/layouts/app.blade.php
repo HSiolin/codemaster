@@ -48,8 +48,7 @@
                 <div class="col-lg-8 col-sm-9">
                     <div class="left-info">
                         <ul>
-                            
-                            <li><a href="#"><i class="fa fa-envelope"></i>infocompany@email.com</a></li>
+                            <li><a href="mailto:codemaster.quiz@gmail.com"><i class="fa fa-envelope"></i>E-mail</a></li>
                             <li><a href="#"><i class="fa fa-map-marker"></i>St. London 54th Bull</a></li>
                             <li>
                                 <input type="checkbox" class="checkbox" id="chk">
@@ -65,10 +64,9 @@
                 <div class="col-lg-4 col-sm-3">
                     <div class="social-icons">
                         <ul>
-                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                        <li><a href="https://www.instagram.com/codemaster.quiz/"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://twitter.com/codemaster_quiz"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/codemaster-quiz-278519299/"><i class="fab fa-linkedin"></i></a></li>
                         </ul>
                     </div>
                 </div>

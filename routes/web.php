@@ -33,15 +33,20 @@ Route::get('/fases', function () {
 Route::get('/subfases_logica', function () {
     return view('logica.subfases');
 })->name('subfases_logica');
-
-
 Route::resource('/logica', LogicaController::class);
 
 // Abas HTML
 Route::resource('/html', HtmlController::class);
+Route::get('/subfases_html', function () {
+    return view('html.subfases');
+})->name('subfases_html');
 
 // Abas CSS
 Route::resource('/css', CssController::class);
+Route::get('/subfases_css', function () {
+    return view('css.subfases');
+})->name('subfases_css');
+
 
 // Rotas de autenticação para usuários
 Auth::routes();

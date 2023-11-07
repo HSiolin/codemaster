@@ -30,7 +30,10 @@ class HtmlController extends Controller
      */
     public function create()
     {
-        //
+        $nivel = request()->input('nivel');
+
+        $pergunta = HTML::where('subfase', $nivel)->get();
+        return view('html.create', compact('pergunta'));
     }
 
     /**

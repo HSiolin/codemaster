@@ -47,7 +47,7 @@
                 <div class="col-lg-8 col-sm-9">
                     <div class="left-info">
                         <ul>
-                            <li><a href="#"><i class="fa fa-envelope"></i>vanessa.vane.nessa.vs@email.com</a></li>
+                            <li><a href="mailto:codemaster.quiz@gmail.com"><i class="fa fa-envelope"></i>E-mail</a></li>
                             <li><a href="#"><i class="fa fa-map-marker"></i>Brasilia DF</a></li>
                             <li>
                                 <input type="checkbox" class="checkbox" id="chk">
@@ -65,8 +65,9 @@
                     <div class="social-icons">
                         <ul>
                             <li><a href="/laravel/tcc/jogo/public/admin"><i class="fa-solid fa-user"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="https://www.instagram.com/codemaster.quiz/"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://twitter.com/codemaster_quiz"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/codemaster-quiz-278519299/"><i class="fab fa-linkedin"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -307,7 +308,7 @@
     <footer>
         <div class="container">
             <div class="col-lg-12">
-                <p>Copyright © 2023 <a href="#">CodeMaster</a>.x</p>
+                <p>Copyright © 2023 <a href="#">CodeMaster</a></p>
             </div>
         </div>
     </footer>

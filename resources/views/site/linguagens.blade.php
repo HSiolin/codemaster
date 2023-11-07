@@ -186,11 +186,11 @@
                                      faz com que a escrita do código seja mais rápida para programar, o que torna o trabalho
                                      do programador mais divertido do que trabalhoso.</td>
                              </tr>
-                         </table>
-                     </div>
-                 </div>
+                            </table>
+                        </div>
+                    </div>
 
-             </div>
-         </div>
-     </div>
+                </div>
+            </div>
+        </div>
  @endsection

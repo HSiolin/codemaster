@@ -29,7 +29,10 @@ class CssController extends Controller
      */
     public function create()
     {
-        //
+        $nivel = request()->input('nivel');
+
+        $pergunta = CSS::where('subfase', $nivel)->get();
+        return view('css.create', compact('pergunta'));
     }
 
     /**
