@@ -36,8 +36,21 @@ class LogicaController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
+    
     public function store(Request $request)
     {
+        $contador_acertos = 0;
+        $respostas_corretas = $request->resposta_correta;
+        $selected_options = $request->selected_option;
+    
+        foreach ($selected_options as $select) {
+            // Incrementa o contador para cada opção selecionada
+            $contador_acertos++;
+        }
+    
+        // Obtém o total de respostas corretas
+        $dados = count($respostas_corretas);
+        return view('logica.index', compact('contador_acertos', 'dados', 'respostas_corretas'));
     }
 
     /**
@@ -52,7 +65,7 @@ class LogicaController extends Controller
     }
 
     /**
-     * Show the form for editing the specified resource.
+     * Show the form for editing the specified resource.   
      *
      * @param  \App\Models\Logica  $logica
      * @return \Illuminate\Http\Response

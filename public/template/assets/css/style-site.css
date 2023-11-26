@@ -97,6 +97,7 @@ figcaption {
   outline: 0;
 }
 
+
 .clearfix:after {
   content: '.';
   display: block;
@@ -1134,7 +1135,7 @@ Infos Style
 }
 
 .infos .main-content .left-image {
-  background-image: url(../images/rank.jpg);
+  background-image: url(../images/1700967707482.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1254,7 +1255,7 @@ Contact Style
 
 .contact-us .contact-us-content #contact-form {
   padding: 60px;
-  border-radius: 23px 23px 0px 0px;
+  border-radius: 23px 23px 23px 23px;
   border: 1px solid #f3d7ff;
 }
 
@@ -1550,6 +1551,9 @@ Happy Clients Style
 
 .happy-clients {
   position: relative;
+  text-align: center;
+  margin-bottom: 80px;
+  
 }
 
 .happy-clients::before {
@@ -1573,6 +1577,8 @@ Happy Clients Style
   height: 464px;
   z-index: -1;
 }
+
+
 
 .happy-clients .section-heading {
   text-align: center;
@@ -1846,10 +1852,10 @@ Most Asked Style
 
 .most-asked #free-quote {
   border-radius: 23px;
-  box-shadow: 0px 0px 10px rgba(141, 139, 139, 0.609);
+  box-shadow: 0px 0px 10px rgba(108, 107, 107, 0.609);
   padding: 60px;
   margin-left: 45px;
-  background-color: #fff;
+  background-color: transparent;
 }
 
 #free-quote .section-heading {
@@ -1860,7 +1866,7 @@ Most Asked Style
   width: 100%;
   height: 46px;
   border-radius: 23px;
-  background-color: #f9ebff;
+  background-color: rgb(245, 226, 252);
   border: none;
   outline: none;
   padding: 0px 15px;

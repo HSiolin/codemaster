@@ -26,7 +26,7 @@
              </div>
          </div>
      </div>
-     <div class="happy-clients section">
+     <div class="happy-clients">
          <div class="container">
              <div class="row">
                  <div class="col-lg-12">
@@ -42,7 +42,7 @@
                  </div>
 
                  <!-- Adicionando informações sobre a Web 3.0 -->
-                 <div class="section">
+                 
                      <div class="container">
                          <div class="row">
                              <div class="col-lg-12">
@@ -103,8 +103,8 @@
                              </div>
                          </div>
                      </div>
-                 </div>
-                 <div class="section">
+                 
+                 
                      <div class="container">
                          <div class="section-heading">
                              <h2><em> Linguagens que Estarão em Alta em 2023</em></h2>
@@ -188,7 +188,7 @@
                              </tr>
                             </table>
                         </div>
-                    </div>
+                   
 
                 </div>
             </div>

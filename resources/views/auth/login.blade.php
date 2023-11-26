@@ -1,9 +1,9 @@
-@extends('layouts.app')
+@extends('layouts.login')
 
 @section('content')
-    <div class="infos section" id="infos">
+    <div class="infos" id="infos">
         <div class="container">
-            <div class="contact-us section" id="contact">
+            <div class="contact-us " id="contact">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
@@ -45,20 +45,19 @@
                                                         @enderror
                                                     </fieldset>
                                                 </div>
+                                                <div class="col-sm-1">
+                                                    <div class="form-check">
+                                                        <input class="form-check" type="checkbox" value=""
+                                                            name="remember" id="remember"
+                                                            {{ old('remember') ? 'checked' : '' }}>
+                                                        <label class="form-check-label" for="remember">
+                                                            {{ __('Lembre-me') }}
+                                                        </label>
 
-
-                                                <div class="col-lg-3">
-                                                    <fieldset>
-                                                        <div class="form-check">
-                                                            <input class="form-check-input" type="checkbox" name="remember"
-                                                                id="remember" {{ old('remember') ? 'checked' : '' }}>
-
-                                                            <label class="form-check-label" for="remember">
-                                                                {{ __('Remember Me') }}
-                                                            </label>
-                                                        </div>
-                                                    </fieldset>
+                                                    </div>
                                                 </div>
+
+
                                                 <div class="col-lg-12">
                                                     <fieldset>
                                                         <button type="submit" class="orange-button">
@@ -73,8 +72,6 @@
                                                     </fieldset>
                                                 </div>
 
-
-
                                             </div>
                                         </form>
                                     </div>
@@ -85,4 +82,5 @@
                 </div>
             </div>
         </div>
-    @endsection
+    </div>
+@endsection

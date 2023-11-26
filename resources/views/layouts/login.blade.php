@@ -20,6 +20,7 @@
     <link href="{{ asset('template/assets/css/owl.css') }}" rel="stylesheet">
     <link href="{{ asset('template/assets/css/animate.css') }}" rel="stylesheet">
     <link href="{{ asset('template/assets/css/botao-fundo.css') }}" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- TemplateMo 582 Tale SEO Agency
     https://templatemo.com/tm-582-tale-seo-agency
@@ -28,18 +29,6 @@
 
 <body>
 
-    <!-- ***** Preloader Start ***** -->
-    <div id="js-preloader" class="js-preloader">
-        <div class="preloader-inner">
-            <span class="dot"></span>
-            <div class="dots">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </div>
-    <!-- ***** Preloader End ***** -->
 
     <!-- ***** Header Area Start ***** -->
     <header class="header-area header-sticky">
@@ -58,14 +47,10 @@
                         <ul class="nav">
 
                             <li class="scroll-to-section">
-                                <a class="dropdown-item" href="{{ route('logout') }}"
-                                    onclick="event.preventDefault();
-                                        document.getElementById('logout-form').submit();">
-                                    {{ __('Sair') }}
+                                <a class="dropdown-item" href="javascript:history.go(-1)">
+                                    Voltar
                                 </a>
-                                <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-                                    @csrf
-                                </form>
+
                             </li>
                         </ul>
 

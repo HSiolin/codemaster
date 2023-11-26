@@ -64,7 +64,7 @@
                 <div class="col-lg-4 col-sm-3">
                     <div class="social-icons">
                         <ul>
-                            <li><a href="/laravel/tcc/jogo/public/admin"><i class="fa-solid fa-user"></i></a></li>
+                            <li><a href="http://localhost/laravel/tcc/admin-jogo/public/login"><i class="fa-solid fa-user"></i></a></li>
                             <li><a href="https://www.instagram.com/codemaster.quiz/"><i class="fab fa-instagram"></i></a></li>
                             <li><a href="https://twitter.com/codemaster_quiz"><i class="fab fa-twitter"></i></a></li>
                             <li><a href="https://www.linkedin.com/in/codemaster-quiz-278519299/"><i class="fab fa-linkedin"></i></a></li>
@@ -92,7 +92,6 @@
                         <ul class="nav">
                             <li class="scroll-to-section"><a href="#top" class="active">Início</a></li>
                             <li class="scroll-to-section"><a href="#services">Notícias da semana</a></li>
-                            <li class="scroll-to-section"><a href="#projects">Rank</a></li>
                             <li class="scroll-to-section"><a href="#infos">Como jogar</a></li>
                             <li class="scroll-to-section"><a href="{{ route('faqs') }}">FAQ</a></li>
                         </ul>
@@ -190,74 +189,7 @@
         </div>
     </div>
     <!-- ***** Tendências end ***** -->
-    <!-- ***** Rank semanal start ***** -->
-    <div class="projects section" id="projects">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="section-heading">
-                        <h2> <em>Rank </em>da <span>semana</span></h2>
-                        <div class="line-dec"></div>
-                        <p>Explore os destaques do nosso 'Ranking Semanal' e descubra quais jogadores estão dominando os
-                            placares nesta semana emocionante.
-                            Veja quem está no topo da competição e acompanhe as tendências em constante evolução do
-                            CodeMaster.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="owl-features owl-carousel">
-                        <div class="item">
-                            <img src="assets/images/projects-01.jpg" alt="">
-                            <div class="down-content">
-                                <h4>Digital Agency HTML Templates</h4>
-                                <a href="#"><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="assets/images/projects-02.jpg" alt="">
-                            <div class="down-content">
-                                <h4>Admin Dashboard CSS Templates</h4>
-                                <a href="#"><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="assets/images/projects-03.jpg" alt="">
-                            <div class="down-content">
-                                <h4>Best Responsive Website Layouts</h4>
-                                <a href="#"><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="assets/images/projects-04.jpg" alt="">
-                            <div class="down-content">
-                                <h4>HTML CSS Layouts for your websites</h4>
-                                <a href="#"><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="assets/images/projects-02.jpg" alt="">
-                            <div class="down-content">
-                                <h4>Bootstrap 5 Themes for Free</h4>
-                                <a href="#"><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="assets/images/projects-03.jpg" alt="">
-                            <div class="down-content">
-                                <h4>Mobile Friendly Website Layouts</h4>
-                                <a href="#"><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- ***** Rank semanal end ***** -->
+   
     <!-- ***** Top 3 start ***** -->
   <div class="infos section" id="infos">
     <div class="container">

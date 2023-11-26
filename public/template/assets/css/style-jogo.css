@@ -145,7 +145,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-
   font-family: 'Open Sans', sans-serif; /* Adiciona a fonte Open Sans */
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -405,7 +404,7 @@ Header Style
 }
 
 .header-area {
-  position: absolute;
+  position: block;
   background: rgb(85, 0, 227);
   background: linear-gradient(90deg, rgba(85, 0, 227, 1) 0%, rgba(198, 61, 255, 1) 100%);
   height: 110px;
@@ -1126,8 +1125,9 @@ Infos Style
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  padding: 160px;
-  margin-top: 20px;
+  padding: 300px;
+  margin-top: 0px;
+  display: block;
 }
 
 .infos .main-content {
@@ -1135,6 +1135,7 @@ Infos Style
   background-color: #fff;
   border-radius: 23px;
 }
+
 
 .infos .main-content .left-image {
   background-image: url(../images/left-infos.jpg);
@@ -1216,6 +1217,116 @@ Infos Style
   margin-top: -15px;
   padding: 0px 60px 60px 60px;
 }
+
+
+
+/* 
+---------------------------------------------
+Quesion Style
+--------------------------------------------- 
+*/
+
+.question {
+  background-image: url(../images/Mask.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 300px;
+  margin-top: 0px;
+  display: flex;
+}
+
+
+.question .main-content {
+  overflow: hidden;
+  background-color: #ebc1fd;
+  border-radius: 23px;
+}
+
+.question h5{
+  color: #8b8b8b;
+}
+
+.question .main-content .left-image {
+  background-image: url(../images/left-infos.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+}
+
+.question .main-content .left-image img {
+  display: none;
+}
+
+.question .main-content .section-heading {
+  padding: 60px 60px 30px 60px;
+}
+
+.question .main-content .skills {
+  padding: 0px 60px;
+}
+
+.question .main-content .skill-slide {
+  position: relative;
+  width: 100%;
+ 
+  height: 50px;
+  border-radius: 5px;
+  margin-bottom: 60px;
+}
+
+.question .main-content .skill-slide .fill {
+  height: 10px;
+  background-color: #5b03e4;
+  border-radius: 5px;
+}
+
+.question .main-content .skill-slide h6 {
+  position: absolute;
+  color: #5b03e4;
+  font-size: 15px;
+  left: 0;
+  top: -25px;
+}
+
+.question .main-content .skill-slide span {
+  position: absolute;
+  color: #5b03e4;
+  font-size: 15px;
+  font-weight: 700;
+  top: -25px;
+}
+
+.question .main-content .marketing .fill {
+  width: 90%;
+}
+
+.question .main-content .digital .fill {
+  width: 80%;
+}
+
+.question .main-content .media .fill {
+  width: 95%;
+}
+
+.question .main-content .marketing span {
+  right: 10%;
+}
+
+.question .main-content .digital span {
+  right: 20%;
+}
+
+.question .main-content .media span {
+  right: 5%;
+}
+
+.question .main-content p.more-question {
+  margin-top: -15px;
+  padding: 0px 60px 60px 60px;
+}
 /* 
 ---------------------------------------------
 Contact Style
@@ -1252,12 +1363,12 @@ Contact Style
   border-radius: 23px;
   padding: 60px;
   background-color: transparent;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 10px rgba(138, 135, 135, 0.1);
 }
 
 .contact-us .contact-us-content #contact-form {
   padding: 60px;
-  border-radius: 23px 23px 0px 0px;
+  border-radius: 23px 23px 23px 23px;
   border: 1px solid #f3d7ff;
 }
 
@@ -1267,20 +1378,20 @@ Contact Style
 
 #contact-form input {
   width: 100%;
-  height: 46px;
-  border-radius: 23px;
+  height: 40px;
+  border-radius: 33px;
   background-color: #f9ebff;
   border: none;
   outline: none;
-  padding: 0px 15px;
+  padding: 1px 15px;
   font-size: 14px;
-  color: #2a2a2a;
+  color: #787878;
   font-weight: 600;
   margin-bottom: 15px;
 }
 
 #contact-form input::placeholder {
-  color: #2a2a2a;
+  color: #868686;
 }
 
 #contact-form textarea {
@@ -1298,7 +1409,7 @@ Contact Style
 }
 
 #contact-form textarea::placeholder {
-  color: #2a2a2a;
+  color: #edecec;
 }
 
 #contact-form button {
@@ -1310,6 +1421,8 @@ Contact Style
   color: #fff;
   transition: all 0.4s;
 }
+
+
 
 #contact-form button:hover {
   opacity: 0.8;
@@ -1544,6 +1657,8 @@ Infos Style
 .video-info .media span {
   right: 5%;
 }
+
+
 
 /*
 ---------------------------------------------
@@ -1898,7 +2013,7 @@ Play Botão
 .container-play {
   background-image: url(../images/Mask.png);
  
-  margin-top: 5px;
+  margin-top: 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1926,7 +2041,6 @@ Play Botão
 Responsive Style
 --------------------------------------------- 
 */
-
 .container-quizz {
   background-image: url(../images/Mask.png);
   background-repeat: no-repeat;
@@ -1941,6 +2055,19 @@ Responsive Style
   text-align: center center;
 }
 
+  .option-button {
+    background-color: #9400D3; /* Roxo violeta */
+      color: #fff;
+      border: none;
+      padding: 15px 30px;
+      border-radius: 50px;
+      cursor: pointer;
+      font-size: 18px;
+  }
+  
+  .option-button.selected {
+    background-color: #8b018b; /* Roxo */
+  }
 
 
 body {
@@ -2154,6 +2281,7 @@ body {
 }
 /* Começo quiz de hover */
 .quiz-container {
+  
   background-color: #a85bef; /* Roxo médio */
   border-radius: 10px;
   padding: 100px;
@@ -2172,16 +2300,3 @@ body {
   margin: 0 auto; /* Adiciona margem automática para centralizar horizontalmente */
 }
 
-.option-button {
-  background-color: #9400D3; /* Roxo violeta */
-    color: #fff;
-    border: none;
-    padding: 15px 30px;
-    border-radius: 50px;
-    cursor: pointer;
-    font-size: 18px;
-}
-
-.option-button.selected {
-  background-color: #8b018b; /* Roxo */
-}

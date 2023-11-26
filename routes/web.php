@@ -2,7 +2,7 @@
 
 use App\Http\Controllers\CssController;
 use App\Http\Controllers\HtmlController;
-use App\Http\Controllers\FasesController;
+use App\Http\Controllers\ContatoController;
 use App\Http\Controllers\LogicaController;
 use App\Http\Controllers\SiteController;
 use Illuminate\Support\Facades\Auth;

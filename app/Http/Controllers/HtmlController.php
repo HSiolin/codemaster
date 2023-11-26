@@ -44,7 +44,19 @@ class HtmlController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $contador_acertos = 0;
+        $respostas_corretas = $request->resposta_correta;
+        $select = $request->selected_option;
+    
+        // Verifica se a opção selecionada está entre as respostas corretas
+        if (in_array($select, $respostas_corretas)) {
+            $contador_acertos++;
+        }
+    
+        // Obtém o total de respostas corretas
+        $dados = count($respostas_corretas);
+    
+        return view('html.index', compact('contador_acertos', 'dados'));
     }
 
     /**

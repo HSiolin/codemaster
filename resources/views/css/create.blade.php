@@ -1,62 +1,80 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container-quizz">
+    <!-- ***** Top 3 start ***** -->
+
+    <div class="question section" id="question">
 
         <div class="row">
-            <div class="col-lg-12 text center">
-                <div class="row">
-                    <h5 class="text-center">CSS</h5>
-                    <div class="col-lg-12">
-                        <form action="{{ route('css.store') }}" method="POST">
-                            @csrf
-                            <table>
-                                <tbody>
+            <div class="col-lg-12">
+                <div class="main-content">
+                    <div class="row">
+                        <div class="col-lg-12">
+
+                            <div class="section-heading">
+                                <h5 class="text-center">CSS</h5>
+                                <form action="{{ route('css.store') }}" method="POST">
+                                    @csrf
                                     @foreach ($pergunta as $value)
-                                        <tr>
-                                            <td>
-                                                <h3 id="question">{{ $value->pergunta }}</h3>
-                                                <hr>
-                                                <div class="options ">
-                                                    <div class="option-button" onclick="selectOption(this)"
-                                                        data-value="{{ $value->opcao1 }}">
+                                        <div class="skills">
+                                            <div class="line-dec"></div>
+                                            <h2><span>{{ $value->pergunta }} </span></h2>
+                                            <div class="line-dec"></div>
+                                        </div>
+
+                                        <div class="options">
+                                            <div class="skills">
+                                                <div class="skill-slide media">
+                                                    <div class="option-button" onclick="selectOption(this)">
+                                                        <input type="radio" name="selected_option[{{ $value->id }}]"
+                                                            value="{{ $value->opcao1 }}">
                                                         {{ $value->opcao1 }}
                                                     </div>
-                                                    <br>
-                                                    <div class="option-button" onclick="selectOption(this)"
-                                                        data-value="{{ $value->opcao2 }}">
+                                                </div>
+
+                                                <div class="skill-slide media">
+                                                    <div class="option-button" onclick="selectOption(this)">
+                                                        <input type="radio" name="selected_option[{{ $value->id }}]"
+                                                            value="{{ $value->opcao2 }}">
                                                         {{ $value->opcao2 }}
                                                     </div>
-                                                    <br>
-                                                    <div class="option-button" onclick="selectOption(this)"
-                                                        data-value="{{ $value->opcao3 }}">
+                                                </div>
+
+                                                <div class="skill-slide media">
+                                                    <div class="option-button" onclick="selectOption(this)">
+                                                        <input type="radio" name="selected_option[{{ $value->id }}]"
+                                                            value="{{ $value->opcao3 }}">
                                                         {{ $value->opcao3 }}
                                                     </div>
-                                                    <br>
-                                                    <div class="option-button" onclick="selectOption(this)"
-                                                        data-value="{{ $value->opcao4 }}">
+                                                </div>
+
+                                                <div class="skill-slide media">
+                                                    <div class="option-button" onclick="selectOption(this)">
+                                                        <input type="radio" name="selected_option[{{ $value->id }}]"
+                                                            value="{{ $value->opcao4 }}">
                                                         {{ $value->opcao4 }}
                                                     </div>
                                                 </div>
-                                                <hr>
-                                                <input type="hidden" name="selected_option" id="selected_option"
-                                                    value="">
-                                                <input type="hidden" name="resposta_correta" id="resposta_correta"
-                                                    value="{{ $value->resposta_correta }}">
-                                            </td>
-                                        </tr>
-                                    @endforeach
-                                </tbody>
-                            </table>
 
-                            <button type="submit" class="btn-grey">Finalizar</button>
-                        </form>
+                                                
+                                                <input type="hidden" name="resposta_correta[]" id="resposta_correta"
+                                                    value="{{ $value->resposta_correta }}">
+                                            </div>
+                                        </div>
+                                    @endforeach
+
+                                    <button type="submit" class="btn-grey">Finalizar</button>
+
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
+
+    <!-- ***** top 3 end ***** -->
     <script>
         function selectOption(button) {
             // Desmarcar todos os botões
@@ -70,7 +88,8 @@
 
             // Atualizar o valor no input hidden
             var selectedValue = button.getAttribute('data-value');
-            document.getElementById('selected_option').value = selectedValue;
+            document.getElementBy
+            Id('resposta_correta').value = selectedValue;
         }
     </script>
 @endsection

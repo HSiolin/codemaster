@@ -21,6 +21,7 @@
     <link href="{{ asset('template/assets/css/owl.css') }}" rel="stylesheet">
     <link href="{{ asset('template/assets/css/animate.css') }}" rel="stylesheet">
     <link href="{{ asset('template/assets/css/botao-fundo.css') }}" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
 
     <style>
@@ -131,9 +132,11 @@
                     <div class="social-icons">
                         <ul>
                             <li><a href="/laravel/tcc/jogo/public/admin"><i class="fa-solid fa-user"></i></a></li>
-                            <li><a href="https://www.instagram.com/codemaster.quiz/"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://www.instagram.com/codemaster.quiz/"><i
+                                        class="fab fa-instagram"></i></a></li>
                             <li><a href="https://twitter.com/codemaster_quiz"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/codemaster-quiz-278519299/"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/codemaster-quiz-278519299/"><i
+                                        class="fab fa-linkedin"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -156,7 +159,8 @@
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li class="scroll-to-section"><a href="{{ route('welcome')}}" class="active">Início</a></li>
+                            <li class="scroll-to-section"><a href="{{ route('welcome') }}" class="active">Início</a>
+                            </li>
                             <li class="scroll-to-section"><a href="#services">Notícias da semana</a></li>
                             <li class="scroll-to-section"><a href="#projects">Rank</a></li>
                             <li class="scroll-to-section"><a href="#infos">Como jogar</a></li>
@@ -174,18 +178,13 @@
     <!-- ***** Cabeçalho Area End ***** -->
 
     <!-- ***** Rank semanal start ***** -->
-    <div class="projects section" id="projects">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div>
-                        @yield('content')
-                    </div>
-                </div>
-            </div>
-        </div>
 
+
+    <div>
+        @yield('content')
     </div>
+
+
     <!-- ***** Rank semanal end ***** -->
 
 
