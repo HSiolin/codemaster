@@ -9,7 +9,7 @@
                              No Mundo Da Programação </h6>
                          <div class="line-dec"></div>
                          <h4><span>Lançamentos de Jogos em <em>2023</em></span></h4>
-                         <p>Jogos Aguardados para 2023!Explore as surpresas que o futuro dos jogos reserva ao mergulhar em
+                         <p>Jogos Aguardados para 2023! Explore as surpresas que o futuro dos jogos reserva ao mergulhar em
                              uma seleção épica dos títulos mais aguardados deste ano.
                              Prepare-se para aventuras marcantes, gráficos impressionantes e narrativas envolventes que
                              prometem revolucionar a experiência de jogar.</p>

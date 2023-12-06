@@ -22,6 +22,7 @@ return new class extends Migration
             $table->string('opcao2');
             $table->string('opcao3');
             $table->string('opcao4');
+            $table->string('pontos');
             $table->timestamps();
         });
     }

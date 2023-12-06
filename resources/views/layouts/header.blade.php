@@ -113,7 +113,6 @@
                 <div class="col-lg-8 col-sm-9">
                     <div class="left-info">
                         <ul>
-                            <li><a href="#"><i class="fa fa-phone"></i></a></li>
                             <li><a href="mailto:codemaster.quiz@gmail.com"><i class="fa fa-envelope"></i>E-mail</a></li>
                             <li><a href="#"><i class="fa fa-map-marker"></i>Brasilia DF</a></li>
                             <li>
@@ -152,7 +151,7 @@
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
-                        <a href="#" class="logo">
+                        <a href="{{ route('welcome') }}" class="logo">
                             <img src="{{ asset('template/assets/images/logo.png') }}" alt=""
                                 style="width: 340px;">
                         </a>
@@ -161,10 +160,6 @@
                         <ul class="nav">
                             <li class="scroll-to-section"><a href="{{ route('welcome') }}" class="active">Início</a>
                             </li>
-                            <li class="scroll-to-section"><a href="#services">Notícias da semana</a></li>
-                            <li class="scroll-to-section"><a href="#projects">Rank</a></li>
-                            <li class="scroll-to-section"><a href="#infos">Como jogar</a></li>
-                            <li class="scroll-to-section"><a href="{{ route('faqs') }}">FAQ</a></li>
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -177,7 +172,7 @@
     </header>
     <!-- ***** Cabeçalho Area End ***** -->
 
-    <!-- ***** Rank semanal start ***** -->
+
 
 
     <div>
@@ -185,19 +180,18 @@
     </div>
 
 
-    <!-- ***** Rank semanal end ***** -->
-
-
-    <!-- ***** top 3 end ***** -->
     <footer>
         <div class="container">
-            <div class="col-lg-12">
-                <p>Copyright © 2023 <a href="#">CodeMaster</a></p>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright © 2036 <a href="#">Tale SEO Agency</a>. Todos os direitos reservados.
+                        <br>Design: <a href="https://templatemo.com" target="_blank">TemplateMo</a> Distribuição: <a
+                            href="https://themewagon.com">ThemeWagon</a>
+                    </p>
+                </div>
             </div>
         </div>
     </footer>
-
-
     <!-- Bootstrap core JavaScript -->
     <script src="{{ asset('template/vendor/jquery/jquery.min.js') }}" defer></script>
     <script src="{{ asset('template/vendor/bootstrap/js/bootstrap.min.js') }}" defer></script>

@@ -56,6 +56,11 @@
 
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
+                            <li class="scroll-to-section">
+                                <a class="dropdown-item" href="{{ route('rank.index') }}">
+                                    {{ __('Rank') }}
+                                </a>
+                            </li>
 
                             <li class="scroll-to-section">
                                 <a class="dropdown-item" href="{{ route('logout') }}"
@@ -68,6 +73,7 @@
                                 </form>
                             </li>
                         </ul>
+
 
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -84,10 +90,16 @@
         @yield('content')
     </div>
 
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- Bootstrap core JavaScript -->
     <script src="{{ asset('template/vendor/jquery/jquery.min.js') }}" defer></script>
     <script src="{{ asset('template/vendor/bootstrap/js/bootstrap.min.js') }}" defer></script>
+    <!-- jQuery -->
+  
 
     <!-- Scripts -->
     <script src="{{ asset('template/assets/js/isotope.min.js') }}" defer></script>

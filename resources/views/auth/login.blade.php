@@ -45,30 +45,24 @@
                                                         @enderror
                                                     </fieldset>
                                                 </div>
-                                                <div class="col-sm-1">
-                                                    <div class="form-check">
-                                                        <input class="form-check" type="checkbox" value=""
-                                                            name="remember" id="remember"
-                                                            {{ old('remember') ? 'checked' : '' }}>
-                                                        <label class="form-check-label" for="remember">
-                                                            {{ __('Lembre-me') }}
+
+                                                <div class="col-lg-2">
+                                                    <!-- Use uma coluna de 12 para ocupar a largura total da linha -->
+                                                    <fieldset>
+                                                        <label for="lembrar-me" class="d-flex align-items-center">
+                                                            <input class="form-check-input" type="checkbox" value=""
+                                                                name="remember" id="remember"
+                                                                {{ old('remember') ? 'checked' : '' }}>
+                                                            <p class="ms-3">Lembrar</p>
                                                         </label>
-
-                                                    </div>
+                                                    </fieldset>
                                                 </div>
-
 
                                                 <div class="col-lg-12">
                                                     <fieldset>
                                                         <button type="submit" class="orange-button">
                                                             {{ __('Login') }}
                                                         </button>
-
-                                                        @if (Route::has('password.request'))
-                                                            <a class="btn btn-link" href="{{ route('password.request') }}">
-                                                                {{ __('Forgot Your Password?') }}
-                                                            </a>
-                                                        @endif
                                                     </fieldset>
                                                 </div>
 

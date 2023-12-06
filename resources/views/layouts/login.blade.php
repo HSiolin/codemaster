@@ -28,7 +28,44 @@
 </head>
 
 <body>
+    <!-- ***** Pré-Cabeçalho Area Start ***** -->
+    <div class="pre-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-sm-9">
+                    <div class="left-info">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-phone"></i></a></li>
+                            <li><a href="mailto:codemaster.quiz@gmail.com"><i class="fa fa-envelope"></i>E-mail</a></li>
+                            <li><a href="#"><i class="fa fa-map-marker"></i>Brasilia DF</a></li>
+                            <li>
+                                <input type="checkbox" class="checkbox" id="chk">
+                                <label class="labelchk" for="chk">
+                                    <i class="fa-regular fa-sun"></i>
+                                    <i class="fa-regular fa-moon"></i>
+                                    <div class="ball"></div>
+                                </label>
+                            </li>
 
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-3">
+                    <div class="social-icons">
+                        <ul>
+                            <li><a href="/laravel/tcc/jogo/public/admin"><i class="fa-solid fa-user"></i></a></li>
+                            <li><a href="https://www.instagram.com/codemaster.quiz/"><i
+                                        class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://twitter.com/codemaster_quiz"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/codemaster-quiz-278519299/"><i
+                                        class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Pre-Cabeçalho Area End ***** -->
 
     <!-- ***** Header Area Start ***** -->
     <header class="header-area header-sticky">

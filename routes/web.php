@@ -2,12 +2,13 @@
 
 use App\Http\Controllers\CssController;
 use App\Http\Controllers\HtmlController;
-use App\Http\Controllers\ContatoController;
+use App\Http\Controllers\RankController;
 use App\Http\Controllers\LogicaController;
 use App\Http\Controllers\SiteController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\Auth\LoginController;
 
 /*
 |--------------------------------------------------------------------------
@@ -48,6 +49,8 @@ Route::get('/subfases_css', function () {
 })->name('subfases_css');
 
 
+Route::resource('/rank', RankController::class);
+
 // Rotas de autenticação para usuários
 Auth::routes();
 
@@ -58,3 +61,5 @@ Route::get('/ias', [SiteController::class, 'ias'])->name('ias');
 Route::get('/jogos', [SiteController::class, 'jogos'])->name('jogos');
 Route::get('/tendencias', [SiteController::class, 'tendencias'])->name('tendencias');
 Route::get('/linguagens', [SiteController::class, 'linguagens'])->name('linguagens');
+
+Route::post('/delete-account', [LoginController::class, 'deleteAccount'])->name('delete.account');

@@ -1,4 +1,5 @@
-@extends('layouts.app')
+@extends('layouts.login')
+
 
 @section('content')
     <div class="infos section" id="infos">

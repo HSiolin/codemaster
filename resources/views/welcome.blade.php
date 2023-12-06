@@ -64,10 +64,13 @@
                 <div class="col-lg-4 col-sm-3">
                     <div class="social-icons">
                         <ul>
-                            <li><a href="http://localhost/laravel/tcc/admin-jogo/public/login"><i class="fa-solid fa-user"></i></a></li>
-                            <li><a href="https://www.instagram.com/codemaster.quiz/"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="http://localhost/laravel/tcc/admin-jogo/public/login"><i
+                                        class="fa-solid fa-user"></i></a></li>
+                            <li><a href="https://www.instagram.com/codemaster.quiz/"><i
+                                        class="fab fa-instagram"></i></a></li>
                             <li><a href="https://twitter.com/codemaster_quiz"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/codemaster-quiz-278519299/"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/codemaster-quiz-278519299/"><i
+                                        class="fab fa-linkedin"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -83,7 +86,7 @@
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
-                        <a href="#" class="logo">
+                        <a href="{{ route('welcome') }}" class="logo">
                             <img src="{{ asset('template/assets/images/logo.png') }}" alt=""
                                 style="width: 340px;">
                         </a>
@@ -146,16 +149,16 @@
                         </div>
                         <div class="col-lg-6 col-sm-6">
                             <div class="service-item">
-                                
+
                                 <h4>Jogos em Alta na Indústria</h4>
-                                  <hr>
+                                <hr>
                                 <div class="main-button scroll-to-section"><a href="{{ route('jogos') }}">Saiba
                                         mais</a></div>
                             </div>
                         </div>
                         <div class="col-lg-6 col-sm-6">
                             <div class="service-item">
-                                
+
                                 <h4>Tendências em Desenvolvimento Web</h4>
                                 <hr>
                                 <div class="main-button scroll-to-section"><a href="{{ route('tendencias') }}">Saiba
@@ -165,7 +168,7 @@
                         </div>
                         <div class="col-lg-6 col-sm-6">
                             <div class="service-item">
-                                
+
                                 <h4>Novidades da Linguagens de Programação</h4>
                                 <hr>
                                 <div class="main-button scroll-to-section"><a href="{{ route('linguagens') }}">Saiba
@@ -175,7 +178,7 @@
                         </div>
                         <div class="col-lg-6 col-sm-6">
                             <div class="service-item">
-                              
+
                                 <h4>Inteligência Artificial em Jogos</h4><br>
                                 <hr>
                                 <div class="main-button scroll-to-section"><a href="{{ route('ias') }}">Saiba
@@ -189,62 +192,70 @@
         </div>
     </div>
     <!-- ***** Tendências end ***** -->
-   
+
     <!-- ***** Top 3 start ***** -->
-  <div class="infos section" id="infos">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="main-content">
+    <div class="infos section" id="infos">
+        <div class="container">
             <div class="row">
-              <div class="col-lg-6">
-                <div class="left-image">
-                  <img src="assets/images/modelo5.jpg" alt="">
+                <div class="col-lg-12">
+                    <div class="main-content">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="left-image">
+                                    <img src="assets/images/modelo5.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="section-heading">
+                                    <h2> <em>Como Jogar </em> <span>CODEMASTER? </span></h2>
+                                    <div class="line-dec"></div>
+                                    <p>Aqui estão as instruções para jogar nosso incrível jogo de quiz:</p>
+                                </div>
+                                <div class="skills">
+                                    <div class="skill-slide marketing">
+                                        <div class="fill"></div>
+                                        <h6>1. Registre-se ou Faça Login</h6>
+                                        <p>Comece criando uma conta ou fazendo login se você já tiver uma.</p>
+                                    </div>
+                                    <br>
+                                    <div class="skill-slide digital">
+                                        <div class="fill"></div>
+                                        <h6>2. Escolha um Quiz</h6>
+                                        <p>Navegue pela nossa seleção de quizzes e escolha o que te interessa.</p>
+                                    </div>
+                                    <br>
+                                    <div class="skill-slide media">
+                                        <div class="fill"></div>
+                                        <h6>3. Responda às Perguntas</h6>
+                                        <p>Escolha uma alternativa correta do quiz com cuidado e rapidez.</p>
+                                    </div>
+                                    <br>
+                                </div>
+                                <p class="more-info">É isso! Você está pronto para começar sua jornada no mundo dos
+                                    quizzes.
+                                    Desafie seus amigos e divirta-se ao máximo.</p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="section-heading">
-                  <h2> <em>Como Jogar </em>  <span>CODEMASTER? </span></h2>
-                  <div class="line-dec"></div>
-                  <p>Aqui estão as instruções para jogar nosso incrível jogo de quiz:</p>
-                </div>
-                <div class="skills">
-                  <div class="skill-slide marketing">
-                    <div class="fill"></div>
-                    <h6>1. Registre-se ou Faça Login</h6>
-                    <p>Comece criando uma conta ou fazendo login se você já tiver uma.</p>
-                  </div>
-                  <div class="skill-slide digital">
-                    <div class="fill"></div>
-                    <h6>Escolha um Quiz</h6>
-                    <p>Navegue pela nossa seleção de quizzes e escolha o que te interessa.</p>
-                  </div>
-                  <div class="skill-slide media">
-                    <div class="fill"></div>
-                    <h6>Responda às Perguntas</h6>
-                    <p>Escolha uma alternativa correta do quiz com cuidado e rapidez.</p>
-                  </div>
-                </div>
-                <p class="more-info">É isso! Você está pronto para começar sua jornada no mundo dos quizzes. 
-                  Desafie seus amigos, ganhe prêmios e divirta-se ao máximo.</p>
-                </p>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
-  </div>
     <!-- ***** top 3 end ***** -->
- 
+
     <footer>
         <div class="container">
-            <div class="col-lg-12">
-                <p>Copyright © 2023 <a href="#">CodeMaster</a></p>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright © 2036 <a href="#">Tale SEO Agency</a>. Todos os direitos reservados.
+                        <br>Design: <a href="https://templatemo.com" target="_blank">TemplateMo</a> Distribuição: <a
+                            href="https://themewagon.com">ThemeWagon</a>
+                    </p>
+                </div>
             </div>
         </div>
     </footer>
-
 
     <!-- Bootstrap core JavaScript -->
     <script src="{{ asset('template/vendor/jquery/jquery.min.js') }}" defer></script>

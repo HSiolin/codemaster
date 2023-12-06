@@ -13,7 +13,12 @@ return new class extends Migration
      */
     public function up()
     {
-   
+        Schema::create('ranks', function (Blueprint $table) {
+            $table->id();
+            $table->string('user_id')->nullable();
+            $table->string('pontos_id')->nullable();
+            $table->timestamps();
+        });
     }
 
     /**
@@ -23,6 +28,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('fases');
+        Schema::dropIfExists('ranks');
     }
 };

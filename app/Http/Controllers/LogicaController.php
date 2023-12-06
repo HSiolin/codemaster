@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Models\Logica;
+use App\Models\Rank;
+use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
@@ -36,21 +38,28 @@ class LogicaController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    
     public function store(Request $request)
     {
-        $contador_acertos = 0;
+        $contador = $request->correct_answers;
         $respostas_corretas = $request->resposta_correta;
         $selected_options = $request->selected_option;
-    
-        foreach ($selected_options as $select) {
-            // Incrementa o contador para cada opção selecionada
-            $contador_acertos++;
+        $pontos = $request->pontos;
+
+        if ($contador >= 4) {
+            // Obtém o ID do usuário logado
+            $userId = Auth::id();
+            $valor = $contador * $pontos;
+            $rank = new rank();
+            $rank->user_id = $userId;
+            $rank->pontos_id = $valor;
+            $rank->save();
+
+              // Retornar a view com os resultados
+              return view('logica.index', compact('contador', 'respostas_corretas'));
+        } else {
+            // Retornar a view com os resultados
+            return view('logica.index', compact('contador', 'respostas_corretas'));
         }
-    
-        // Obtém o total de respostas corretas
-        $dados = count($respostas_corretas);
-        return view('logica.index', compact('contador_acertos', 'dados', 'respostas_corretas'));
     }
 
     /**
@@ -65,7 +74,7 @@ class LogicaController extends Controller
     }
 
     /**
-     * Show the form for editing the specified resource.   
+     * Show the form for editing the specified resource.
      *
      * @param  \App\Models\Logica  $logica
      * @return \Illuminate\Http\Response
