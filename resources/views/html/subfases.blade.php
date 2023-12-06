@@ -4,7 +4,7 @@
     <div class="infos section" id="infos">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-2 text-center">
+                <div class="col-lg-3 text-center">
                     <a type="button" href="{{ route('html.create', ['nivel' => 'facil']) }}"
                         class="start-button mb-3">Fácil</a>
                     <a type="button" href="{{ route('html.create', ['nivel' => 'medio']) }}"

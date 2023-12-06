@@ -4,9 +4,8 @@
     <div class="infos section" id="infos">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-2 text-center">
+                <div class="col-lg-3 text-center">
                     <a type="button" href="{{ route('subfases_logica') }}" class="start-button mb-3">Lógica</a>
-
                     <a type="button" href="{{ route('subfases_html') }}" class="start-button mb-3" onclick="startGame('html')">HTML</a>
                     <a type="button" href="{{ route('subfases_css') }}" class="start-button mb-3" onclick="startGame('css')">CSS</a>
                 </div>
