@@ -10,7 +10,7 @@
                             <div class="contact-us-content d-flex align-items-center">
                                 <div class="row">
 
-                                    <div class="col-lg-12 mx-auto">
+                                    <div class="col-sm-12">
                                         <form id="contact-form" action="{{ route('login') }}" method="POST">
                                             @csrf
                                             <div class="row">
