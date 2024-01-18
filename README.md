@@ -14,6 +14,7 @@
 <hr>
 <div align="center">
     <b>Página inicial</b><br>
+    <br>
     <img src="public/template/assets/images/image-init.png" alt="" style="width: 550px;">
 </div>
 <hr>
