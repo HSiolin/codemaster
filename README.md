@@ -2,7 +2,8 @@
     <img src="public/template/assets/images/logo.png" alt="" style="width: 550px;">
 </div>
 ## CODEMASTER: UM JOGO PARA AUXILIAR NA APRENDIZAGEM DE PROGRAMAÇÃO
-<p>Este projeto visa criar uma plataforma de jogos educativos, que permita aos usuários aprender de forma dinâmica os conceitos iniciais da programação.</p>
+<hr>
+<p>Neste projeto foi desenvolvido uma plataforma de jogos educativos, que permita aos usuários aprender de forma dinâmica os conceitos iniciais da programação.</p>
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
