@@ -4,7 +4,8 @@
 ## CODEMASTER: UM JOGO PARA AUXILIAR NA APRENDIZAGEM DE PROGRAMAÇÃO
 <hr>
 <b>Neste projeto foi desenvolvido uma plataforma de jogos educativos, que permita aos usuários aprender de forma dinâmica os conceitos iniciais da programação.</b>
-
+<hr>
+<b>Linguagens e Framewoks:</b>
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
 - Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
