@@ -1,4 +1,5 @@
 <img src="https://github.dev/Hillary77/codemaster/blob/master/public/template/assets/images/logo.png">
+ <img src="template/assets/images/logo.png" alt="" style="width: 340px;">
 ## CODEMASTER
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
