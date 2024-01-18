@@ -1,4 +1,4 @@
-<div class="header-logo" align="left">
+<div align="center">
     <img src="public/template/assets/images/logo.png" alt="" style="width: 550px;">
 </div>
 ## CODEMASTER
