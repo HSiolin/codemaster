@@ -1,5 +1,5 @@
-<div class='header-logo'>
-    <img src="public/template/assets/images/logo.png" alt="" style="width: 550px; align: left;">
+<div class="header-logo" align="left">
+    <img src="public/template/assets/images/logo.png" alt="" style="width: 550px;">
 </div>
 ## CODEMASTER
 
