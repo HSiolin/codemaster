@@ -11,5 +11,9 @@
 - JAVASCRIPT;<br>
 <hr>
 <h3>DESENVOLVIMENTO</h3>
-
+<hr>
+<div align="center">
+    <b>Página inicial</b><br>
+    <img src="public/template/assets/images/image-init.png" alt="" style="width: 550px;">
+</div>
 <hr>
