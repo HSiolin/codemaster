@@ -15,6 +15,6 @@
 <div align="center">
     <b>Página inicial</b><br>
     <br>
-    <img src="public/template/assets/images/image-init.png" alt="" style="width: 550px;">
+    <img src="public/template/assets/images/image-init.png" alt="" style="width: auto 0px;">
 </div>
 <hr>
