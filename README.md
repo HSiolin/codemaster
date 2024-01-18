@@ -6,7 +6,7 @@
 <b>Neste projeto foi desenvolvido uma plataforma de jogos educativos, que permita aos usuários aprender de forma dinâmica os conceitos iniciais da programação.</b>
 <hr>
 <b>Linguagens e Framewoks</b><br>
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- 
 - [Powerful dependency injection container](https://laravel.com/docs/container).
 - Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
 - Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
