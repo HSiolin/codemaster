@@ -1,9 +1,8 @@
 <div align="center">
     <img src="public/template/assets/images/logo.png" alt="" style="width: 550px;">
 </div>
-## CODEMASTER
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## CODEMASTER: UM JOGO PARA AUXILIAR NA APRENDIZAGEM DE PROGRAMAÇÃO
+<p>Este projeto visa criar uma plataforma de jogos educativos, que permita aos usuários aprender de forma dinâmica os conceitos iniciais da programação.</p>
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
