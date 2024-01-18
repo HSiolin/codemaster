@@ -1,7 +1,7 @@
 <div align="center">
     <img src="public/template/assets/images/logo.png" alt="" style="width: 550px;">
 </div>
-## CODEMASTER: UM JOGO PARA AUXILIAR NA APRENDIZAGEM DE PROGRAMAÇÃO
+<h5>## CODEMASTER: UM JOGO PARA AUXILIAR NA APRENDIZAGEM DE PROGRAMAÇÃO</h5>
 <hr>
 <b>Neste projeto foi desenvolvido uma plataforma de jogos educativos, que permita aos usuários aprender de forma dinâmica os conceitos iniciais da programação.</b>
 <hr>
