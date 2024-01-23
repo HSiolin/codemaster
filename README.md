@@ -16,5 +16,13 @@
     <b>Página inicial</b><br>
     <br>
     <img src="public/template/assets/images/image-init.png" alt="" style="width: auto 0px;">
+    <hr>
+    <b>Página FAQ</b><br>
+    <br>
+    <img src="public/template/assets/images/faq.png" alt="" style="width: auto 0px;">
+     <hr>
+    <b>Página FAQ</b><br>
+    <br>
+    <img src="public/template/assets/images/jogos.png" alt="" style="width: auto 0px;">
 </div>
 <hr>
