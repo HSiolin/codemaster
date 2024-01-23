@@ -13,16 +13,63 @@
 <h3>DESENVOLVIMENTO</h3>
 <hr>
 <div align="center">
-    <b>Página inicial</b><br>
+    <h3>Página Inicial site</h3>
     <br>
     <img src="public/template/assets/images/image-init.png" alt="" style="width: auto 0px;">
     <hr>
     <b>Página FAQ</b><br>
     <br>
     <img src="public/template/assets/images/faq.png" alt="" style="width: auto 0px;">
-     <hr>
-    <b>Página FAQ</b><br>
+    <hr>
+    <b>Página Jogos</b><br>
     <br>
     <img src="public/template/assets/images/jogos.png" alt="" style="width: auto 0px;">
+    <hr>
+    <b>Página Têndencias</b><br>
+    <br>
+    <img src="public/template/assets/images/tendencias.png" alt="" style="width: auto 0px;">
+    <hr>
+    <b>Página Linguagens</b><br>
+    <br>
+    <img src="public/template/assets/images/novidade.png" alt="" style="width: auto 0px;">
+    <hr>
+    <b>Página IA</b><br>
+    <br>
+    <img src="public/template/assets/images/ia.png" alt="" style="width: auto 0px;">
+    <hr>
+      <h3>Página Jogo</h3>
+       <b>Página Registrar-se</b><br>
+    <br>
+    <img src="public/template/assets/images/register.png" alt="" style="width: auto 0px;">
+    <hr>
+    <b>Página Login</b><br>
+    <br>
+    <img src="public/template/assets/images/login.png" alt="" style="width: auto 0px;">
+    <hr>
+    <b>Página Start</b><br>
+    <br>
+    <img src="public/template/assets/images/start.png" alt="" style="width: auto 0px;">
+    <hr>
+    <b>Página Fases</b><br>
+    <br>
+    <img src="public/template/assets/images/fase.png" alt="" style="width: auto 0px;">
+    <hr>
+    <b>Página Subfases</b><br>
+    <br>
+    <img src="public/template/assets/images/sub.png" alt="" style="width: auto 0px;">
+    <hr>
+    <b>Página Quiz</b><br>
+    <br>
+    <img src="public/template/assets/images/quiz.png" alt="" style="width: auto 0px;">
+    <hr>
+    <b>Página Resultado Quiz</b><br>
+    <br>
+    <img src="public/template/assets/images/green.png" alt="" style="width: auto 0px;">
+    <br>
+    <img src="public/template/assets/images/red.png" alt="" style="width: auto 0px;">
+    <hr>
+    <b>Página Rank</b><br>
+    <br>
+    <img src="public/template/assets/images/rank.png" alt="" style="width: auto 0px;">
 </div>
 <hr>
